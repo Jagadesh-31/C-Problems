@@ -13,11 +13,10 @@ std::vector<int> test(std::vector<int> nums)
         if(nums[i] < nums[i-1] && nums[i] < nums[i+1]) 
             temp.push_back(nums[i]); // If the condition is met, adding the element to the 'temp' vector
     }
-    return temp; // Returning the vector containing elements smaller than their adjacent neighbors
+    return temp; 
 }
 // Main function
 int main(){
-    // Uncomment either of the following lines to test different sets of numbers
 
     // vector<int> nums = {7, 2 ,5, 3, 1, 5, 6}; // Test vector with non-matching elements
     vector<int> nums = {1, 2 ,5, 0, 3, 1, 7}; // Test vector with elements smaller than both adjacent neighbors
