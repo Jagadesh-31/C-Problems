@@ -15,7 +15,6 @@ std::vector<int> test(std::vector<int> nums)
     }
     return temp; 
 }
-// Main function
 int main(){
 
     // vector<int> nums = {7, 2 ,5, 3, 1, 5, 6}; // Test vector with non-matching elements
